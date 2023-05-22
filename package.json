@@ -1,7 +1,7 @@
 {
   "name": "signalk-location-info",
   "version": "1.0.0",
-  "description": "Plugin for SignalK to lookup information like country, ocean, sea zones, etc. based on your current location.",
+  "description": "Look up various info based on location.  Country, territory, flag, etc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,10 +18,15 @@
   "homepage": "https://github.com/hoeken/signalk-location-info#readme",
   "keywords": [
     "signalk-node-server-plugin",
-    "signalk-category-utility"
+    "signalk-category-utility",
+    "signalk-webapp"
   ],
   "dependencies": {
     "country-iso": "^2.0.5",
     "i18n-iso-countries": "^7.6.0"
+  },
+  "signalk": {
+    "appIcon": "./assets/icons/app-icon.png",
+    "displayName": "Location Info"
   }
 }

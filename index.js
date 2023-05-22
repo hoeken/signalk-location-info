@@ -6,7 +6,7 @@ module.exports = function (app) {
 
   plugin.id = 'signalk-location-info';
   plugin.name = 'Location Info';
-  plugin.description = 'Plugin for SignalK to lookup information like country, ocean, sea zones, etc. based on your current location.';
+  plugin.description = 'Look up various info based on location.  Country, territory, flag, etc.';
 
   var unsubscribes = [];
 
