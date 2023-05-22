@@ -1,0 +1,23 @@
+{
+  "name": "signalk-location-info",
+  "version": "1.0.0",
+  "description": "Plugin for SignalK to lookup information like country, ocean, sea zones, etc. based on your current location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoeken/signalk-location-info.git"
+  },
+  "author": "Zach Hoeken <hoeken@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoeken/signalk-location-info/issues"
+  },
+  "homepage": "https://github.com/hoeken/signalk-location-info#readme",
+  "keywords": [
+    "signalk-node-server-plugin",
+    "signalk-category-utility"
+  ]
+}
